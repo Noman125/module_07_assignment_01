@@ -253,4 +253,25 @@
   margin-top: 30px;
 }
 /* End Next Target Session  */
+/* Start Support Session  */
+.support{
+  max-width: 1050px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 16px;
+  background-image: url(../assets/handshake.jpg);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(abuhasnat.noman@gmail.com);
+}
+
+.support-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
 
