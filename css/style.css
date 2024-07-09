@@ -89,7 +89,7 @@
 
 /* End Banner style */
 
-/* Start Banner style */
+/* Start Web Development style */
 
 .web-dev {
   max-width: 880px;
@@ -99,25 +99,28 @@
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
 }
-.web-dev-title{
+
+.web-dev-title {
   margin-bottom: 20px;
 }
+
 .web-dev-heading {
   padding: 0 45px 45px 45px;
 }
+
 .web-items {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 30px;
   border-radius: 16px;
   background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
-  margin-bottom: 25px;
 }
-.linear-gradient{
-  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+.linear-gradient {
+  background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
-.web-item-description{
+
+.web-item-description {
   text-align: left;
 }
 
@@ -137,3 +140,34 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+/* End Web Development style */
+
+/* Start Inspiration section style */
+.inspiration{
+  max-width: 1070px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.insp-title{
+  margin-bottom: 20px;
+}
+.videos{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1070px;
+  height: 480px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.videos source{
+  border-radius: 10px;
+}
+
+/* End Inspiration section style */
+
