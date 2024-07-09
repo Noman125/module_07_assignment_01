@@ -171,3 +171,39 @@
 
 /* End Inspiration section style */
 
+/* Start Target section style */
+
+.current-description{
+  margin-top: 20px;
+}
+.target-container{
+  display: flex;
+  gap: 20px;
+  max-width: 1080px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+  
+}
+.target-items{
+  border-radius: 16px;
+  padding: 30px;
+  align-items:start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.target-bg1{
+  background: rgba(255, 76, 30, 0.05);
+}
+.target-bg2{
+  background: rgba(0, 76, 232, 0.05);
+}
+.target-bg3{
+  background: rgba(255, 223, 0, 0.05);
+}
+/* End Target section style */
+
+
