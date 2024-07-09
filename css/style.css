@@ -3,9 +3,10 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
-/* Shared Style */
+/*Start Shared Style */
 .btn-primary {
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
@@ -14,7 +15,23 @@
   padding: 17px 24px;
   cursor: pointer;
 }
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.title-description {
+  text-align: center;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+}
+
+/* End of Shared Style */
+
 /* Start nav style */
+
 .nav-container {
   display: flex;
   max-width: 1366px;
@@ -24,22 +41,24 @@
   margin-top: 45px;
   margin-bottom: 45px;
 }
+
 .nav-title {
   font-weight: 800;
   font-size: 38;
   color: rgb(13, 19, 33);
 }
+
 /* End nav style */
 
 /* Start Banner style */
-.banner{
+.banner {
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   height: 520px;
   background-size: cover;
-
 }
-.banner-container{
+
+.banner-container {
   display: flex;
   max-width: 920px;
   align-items: center;
@@ -47,21 +66,74 @@
   margin: 0 auto;
   gap: 20px;
 }
-.banner-title{
+
+.banner-title {
   font-size: 48px;
   font-weight: 800;
   color: rgb(13, 19, 33);
   text-align: center;
 }
-.banner-description{
+
+.banner-description {
   text-align: center;
   opacity: 0.7;
   color: rgb(13, 19, 33);
 }
-.banner-button{
-  background-color:  rgb(30, 30, 30);
+
+.banner-button {
+  background-color: rgb(30, 30, 30);
   color: white;
   opacity: 100%;
 
 }
+
 /* End Banner style */
+
+/* Start Banner style */
+
+.web-dev {
+  max-width: 880px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 80px 95px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.web-dev-title{
+  margin-bottom: 20px;
+}
+.web-dev-heading {
+  padding: 0 45px 45px 45px;
+}
+.web-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+  margin-bottom: 25px;
+}
+.linear-gradient{
+  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.web-item-description{
+  text-align: left;
+}
+
+.web-item-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+  margin-bottom: 20px;
+}
+
+.web-item-btn {
+  padding: 12px 20px;
+  border: 1px solid rgb(41, 45, 54);
+  opacity: 0.7;
+  margin-top: 28px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
