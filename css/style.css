@@ -269,11 +269,35 @@
 }
 
 .support-container{
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  gap: 20px;
+}
+.support-title{
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.support-description{
+  text-align: center;
+  color: white;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.form input{
+  padding: 20px 450px 20px 20px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+margin-right: 20px;
+}
+.form > button{
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 600;
 }
 /* End Support Section  */
 
@@ -288,8 +312,10 @@
   background: rgba(13, 19, 33, 0.03);
   padding: 32px 150px;
 }
+
 .social-icon a{
   text-decoration: none;
   padding-left: 20px;
 }
+
 /* End Footer Part  */
