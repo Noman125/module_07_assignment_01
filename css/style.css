@@ -155,21 +155,16 @@
 .insp-title{
   margin-bottom: 20px;
 }
-.videos{
+.inspiration-video{
   padding: 30px;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 1070px;
-  height: 480px;
-  box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
-.videos source{
-  border-radius: 10px;
+.inspiration-video video{
+  border-radius: 18px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  width: 100%;
 }
 
 /* End Inspiration section style */
